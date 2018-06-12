@@ -1,0 +1,278 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+/* THIS IS THE CODE FOR THE ASSESSMENTS */
+
+
+.animation{
+  height: 100px;
+  width: 100px;
+  background-color: red;
+  animation: fadeIn 4s;
+  
+}
+.animation2{
+  height: 100px;
+  width: 100px;
+  background-color: green;
+  animation: spin 100s;
+}
+/* 28D */
+.animation3{
+  width: 100px;
+  height: 100px;
+  transition: width 2s;
+  transition-delay: 0.5s;
+  background-color:blue;
+ 
+}
+.animation3:hover {
+  width:150px;
+}
+
+/* 28C */
+@keyframes fadeIn{
+  from{opacity: 0;}
+  to{opacity: 1;}
+  
+}
+
+/* 28E */
+@keyframes spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+/* 30C */
+.box-shadow{
+  height: 100px;
+  width: 100px;
+  background-color: purple;
+  box-shadow: 5px 5px;
+}
+/* 30D */
+.gradients{
+  height: 100px;
+  width: 100px;
+  background:linear-gradient(gold, grey);
+}
+/* 30E */
+.text-effects{
+  background-color: burlywood;
+  height: 100px;
+  width: 100px;
+  word-break: break-all;
+}
+
+/* 27C 27D 27E 27F 27G */
+.flexbox{
+  height: 100px;
+  width: 100px;
+  background-color: tan;
+  display: flex;
+	flex-direction: row-reverse;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+}
+
+/* 31C */
+:root{
+  --meanNo: blue;
+}
+.variables{
+  height: 100px;
+  width: 100px;
+  background-color: var(--meanNo);
+}
+
+
+/* 31D */
+
+.section {
+	clear: both;
+	padding: 0px;
+  margin: 0px;
+  background-color: orange;
+}
+.col {
+	display: block;
+	float:left;
+	margin: 1% 0 1% 1.6%;
+}
+.col:first-child { margin-left: 0;
+background-color: red; }
+.group:before,
+.group:after { content:""; display:table; }
+.group:after { clear:both;}
+.group { zoom:1; }
+.span_2_of_2 {
+	width: 100%;
+}
+.span_1_of_2 {
+	width: 49.2%;
+}
+
+/* 29C */
+@media only screen and (max-width: 480px) {
+	.col { 
+		margin: 1% 0 1% 0%;
+	}
+}
+
+@media only screen and (max-width: 480px) {
+	.span_2_of_2, .span_1_of_2 { width: 100%; }
+}
+.pseudo{
+  padding-top: 50px;
+}
+/* 26E */
+.pseudo-disabled:disabled{
+  background: red;
+}
+.pseudo-disabled{
+  height: 25px;
+  width: 150px;
+}
+
+/* 26G */
+
+.pseudo-focus:focus{
+  width: 10px;
+}
+.pseudo-focus{
+  height: 25px;
+  width: 150px;
+}
+
+/* 26H */
+
+.pseudo-hover:hover{
+  border: solid 3px green;
+}
+.pseudo-hover{
+  height: 25px;
+  width: 150px;
+}
+
+/* 26L */
+p:nth-child(odd){
+  height: 25px;
+  width: 150px;
+  background: green;
+}
+
+
+/* 24C 24D 24E 24F 25D 25F*/
+
+/*25C-1*/
+
+.box-model{
+  height: 110px;
+  width: 300px;
+  color: white;
+  background: #222;
+  margin: 20px;
+  border: 1px solid turquoise;
+  padding: 2px;
+  box-sizing: content-box;
+  float: right;
+  display: flex;
+}
+
+/* 23D-1 23D-2 23D-3 23E */
+.font-background{
+  font-weight: bold;
+  color:yellow;
+  font-size: 25px;
+  background-color: pink;
+  height: 300px;
+  width: 300px;
+}
+/* 23F */
+/*22C-3*/
+.font-background:hover{
+  background-image:url('https://5.imimg.com/data5/NY/JB/MY-3607943/pizza-box-500x500.jpg')
+}
+
+.positions{
+  position: relative;
+  height: 100px;
+  width: 100px;
+  background-color: tan;
+  display: flex;
+	flex-direction: row-reverse;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+}
+.positions2{
+  position: absolute;
+  height: 100px;
+  width: 100px;
+  background-color: tan;
+  display: flex;
+	flex-direction: row-reverse;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+}
+
+/*22C-2*/
+
+.positions3{
+  position: fixed;
+  height: 100px;
+  width: 100px;
+  background-color: tan;
+  display: flex;
+	flex-direction: row-reverse;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+}
+
+/* 22C-1 */
+#testing{
+  font-size: 25px;
+}
+
+/* 22C-4 */
+div#positions2 > ul {
+  border: 1px solid black;
+}
+
+/* 22C-5 */
+positions3 + positions li:last-child {
+  font-weight: bold;
+}
