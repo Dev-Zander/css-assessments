@@ -276,3 +276,12 @@ div#positions2 > ul {
 positions3 + positions li:last-child {
   font-weight: bold;
 }
+.button-1{
+  height: 20px;
+  width: 100px;
+  font-size: 7px;
+}
+.video{
+  height: 100px;
+  width: 200px;
+}

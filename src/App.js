@@ -8,11 +8,16 @@ class App extends Component {
       <div className="App">
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
+
+          {/* 54F-1 */}
           <h1 className="App-title">Welcome to CSS & HTML Assessments</h1>
         </header>
         <p className="App-intro">
-          This is the place to find my CODE for Badging.
+        {/* 54C-2 */}
+          <span>This is the place to find my CODE for Badging.</span>
 
+
+        {/* 54C-3 */}
           <div className="main-css-container">
 
             <div className="animation">
@@ -55,12 +60,13 @@ class App extends Component {
             </div>
 
             <div className="pseudo">
-
+            {/* 54G */}
               <input className="pseudo-disabled" disabled value="disabled 26E" />
               <input className="pseudo-focus" value="focus 26G" />
               <input className="pseudo-hover" value="hover 26H" />
 
               <div>
+                {/* 54C-1 */}
                 <p>nth-child 26L</p>
                 <p>nth-child 26L</p>
                 <p id="testing">nth-child 26L</p>
@@ -71,7 +77,8 @@ class App extends Component {
 
             <div className="box-model">
             
-            Box Model 24C 24D 24E 24F
+            {/* 54F-2 */}
+            <h2>Box Model 24C 24D 24E 24F</h2>
 
           <div> Float and Display 25D 25F</div>
             </div>
@@ -83,7 +90,7 @@ class App extends Component {
 23E	background-color
 23F	background-image
         </div>
-
+        {/* 54J */}
         <div className="positions"> 25C-1	relative</div>
         <div className="positions1">25C-2	absolute</div>
         <div className="positions2">25C-3	fixed</div>
@@ -92,9 +99,38 @@ class App extends Component {
 
           <div className="main-html-container">
 
+          {/* 59C */}
+          <button className="button-1" role="button">59C	ARIA</button>
+          {/* 59E */}
+          {/* 54E-2	 */}
+          <img src={logo} className="App-logo" alt="logo" />
+
+{/* 54E-1 */}
+<ul>
+  <li>Test</li>
+  <li>Test</li>
+  <li>Test</li>
+  <li>Test</li>
+</ul>
+  
+{/* 54H */}
+<a href="http://www.google.com">Google Link</a>
+
+{/* 54D-2 */}
+<section>
+{/* 54D-1 */}
+<article>
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+
+</article>
+</section>
 
           </div>
         </p>
+        {/* 54D-3 */}
+        <footer>THis is the footer</footer>
+
+       
       </div>
     );
   }
